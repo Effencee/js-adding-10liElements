@@ -11,7 +11,6 @@ const init = () => {
 }
 
 const createLiElements = () => {
- // tutaj kod
  for (let i = 0; i < size; i++) {
     const liItems = document.createElement('li'); 
     liItems.textContent = 'element ' + orderElement;
